@@ -11,7 +11,7 @@ import string
 #comenzamos a crear el generador de contraseñas
 def generate_password():
     try:
-        length = int(entry_lenght.get()) #pedimos al usuario que introduzca la longitud que quiera para su contraseña
+        length = int(entry_length.get()) #pedimos al usuario que introduzca la longitud que quiera para su contraseña
         if length <= 0:
             raise ValueError ("La longitud no puede ser 0, porfavor introduzca un numero valido")
             #salta un error ya que una contraseña no puede tener 0 caracteres, le pedimos que introduzca una longitud valida
