@@ -38,4 +38,11 @@ Este proyecto es una aplicación desarrollada en Python que permite a los usuari
    
 3. Ejecuta el archivo principal del programa:
 
-python generador_contraseñas.py
+      python generador_contraseñas.py
+
+# Uso
+1. **Seleccionar la longitud de la contraseña:** Pon un número en el campo de texto para establecer la longitud deseada de la contraseña.
+
+2. **Generar contraseña:** Haz clic en el botón "Generar Contraseña" para crear una contraseña aleatoria segura.
+
+3. **Comprobar la seguridad de una contraseña:** Ingresa una contraseña manualmente o utiliza la generada, y haz clic en "Comprobar Contraseña". Se evaluará su seguridad y se mostrará un mensaje informativo.
