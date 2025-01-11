@@ -19,3 +19,13 @@ Este proyecto es una aplicación desarrollada en Python que permite a los usuari
 ·Interfaz gráfica intuitiva y fácil de usar.
 
 ·Mensajes claros para guiar al usuario en caso de errores o contraseñas débiles.
+
+# Tecnologías utilizadas
+
+·Python 3.7+
+
+·tkinter: Para la creación de la interfaz gráfica.
+
+·random: Para la generación de contraseñas aleatorias.
+
+·string: Para proporcionar conjuntos de caracteres (letras, dígitos y símbolos).
