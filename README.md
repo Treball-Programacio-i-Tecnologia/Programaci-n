@@ -46,3 +46,7 @@ Este proyecto es una aplicación desarrollada en Python que permite a los usuari
 2. **Generar contraseña:** Haz clic en el botón "Generar Contraseña" para crear una contraseña aleatoria segura.
 
 3. **Comprobar la seguridad de una contraseña:** Ingresa una contraseña manualmente o utiliza la generada, y haz clic en "Comprobar Contraseña". Se evaluará su seguridad y se mostrará un mensaje informativo.
+
+   ![comrpobacin](https://github.com/user-attachments/assets/8a0f7a05-9a8f-47c0-aaaa-4be4bdd090ea)
+
+
