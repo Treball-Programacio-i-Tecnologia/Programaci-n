@@ -51,6 +51,6 @@ Este proyecto es una aplicación desarrollada en Python que permite a los usuari
 
 # Contribuciones
 
-Si tiene sugerencias para mejorar el código o encuentra algún error, póngase en contatco con el grupo de desarrolladores.
+Si tiene sugerencias para mejorar el código o encuentra algún error, póngase en contacto con el grupo de desarrolladores.
 
 
