@@ -1,1 +1,1 @@
-# Programaci-n
+# Generador de contraseñas seguras
