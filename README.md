@@ -5,10 +5,17 @@ Este proyecto es una aplicación desarrollada en Python que permite a los usuari
 # Características
 
 ·Genera contraseñas seguras con una longitud definida por el usuario.
+
 ·Comprueba la seguridad de contraseñas basándose en los siguientes criterios:
+
 ·Longitud mínima de 8 caracteres.
+
 ·Inclusión de al menos un número.
+
 ·Inclusión de al menos una letra mayúscula.
+
 ·Inclusión de al menos un carácter especial.
+
 ·Interfaz gráfica intuitiva y fácil de usar.
+
 ·Mensajes claros para guiar al usuario en caso de errores o contraseñas débiles.
