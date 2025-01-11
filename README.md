@@ -49,4 +49,8 @@ Este proyecto es una aplicación desarrollada en Python que permite a los usuari
 
    ![comrpobacin](https://github.com/user-attachments/assets/8a0f7a05-9a8f-47c0-aaaa-4be4bdd090ea)
 
+# Contribuciones
+
+Si tiene sugerencias para mejorar el código o encuentra algún error, póngase en contatco con el grupo de desarrolladores.
+
 
