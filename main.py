@@ -54,3 +54,69 @@ def check_password():
         messagebox.showinfo("Comprobación", "La contraseña es segura.")
         # si la contraseña cumple con todos los requisitos (longitud minima, contiene numeros, letras mayusculas y caracteres especiales), es segura.
         # muestra un mensaje diciendo que la contraseña es segura
+
+
+# Crear la ventana principal
+root = tk.Tk()  # Inicializar la ventana principal
+root.title("Gestor de Contraseñas")  # Establecer el título de la ventana
+root.geometry("400x300")  # Definir las dimensiones de la ventana (ancho x alto)
+root.configure(bg="#2E3B4E")  # Establecer el color de fondo de la ventana
+
+# Etiqueta y entrada para la longitud de la contraseña
+label_length = tk.Label(  # Crear una etiqueta para indicar al usuario qué hacer
+    root, 
+    text="Longitud de la contraseña:",  # Texto de la etiqueta
+    bg="#2E3B4E",  # Color de fondo de la etiqueta
+    fg="white",  # Color del texto de la etiqueta
+    font=("Arial", 12)  # Fuente y tamaño del texto
+)
+label_length.pack(pady=10)  # Agregar la etiqueta a la ventana con un margen vertical de 10 píxeles
+
+entry_length = tk.Entry(  # Crear un campo de entrada para que el usuario introduzca la longitud de la contraseña
+    root, 
+    font=("Arial", 12),  # Establecer la fuente y el tamaño del texto
+    justify="center",  # Alinear el texto al centro
+    bg="#E8E8E8",  # Establecer el color de fondo del campo de entrada
+    relief="flat"  # Estilo plano para el borde del campo
+)
+entry_length.pack(pady=5)  # Agregar el campo de entrada a la ventana con un margen vertical de 5 píxeles
+
+# Botón para generar contraseña
+btn_generate = tk.Button(  # Crear un botón para generar una contraseña
+    root, 
+    text="Generar Contraseña",  # Texto que aparece en el botón
+    command=generate_password,  # Función que se ejecutará al hacer clic en el botón (debe estar definida)
+    font=("Arial", 12),  # Fuente y tamaño del texto
+    bg="#4CAF50",  # Color de fondo del botón
+    fg="white",  # Color del texto del botón
+    relief="flat",  # Estilo plano para el borde del botón
+    activebackground="#45A049"  # Color de fondo del botón cuando está activo (clic o hover)
+)
+btn_generate.pack(pady=15)  # Agregar el botón a la ventana con un margen vertical de 15 píxeles
+
+# Entrada para mostrar o introducir la contraseña
+entry_password = tk.Entry(  # Crear un campo de entrada para mostrar o introducir la contraseña generada
+    root, 
+    width=30,  # Ancho del campo de entrada
+    font=("Arial", 12),  # Fuente y tamaño del texto
+    justify="center",  # Alinear el texto al centro
+    bg="#E8E8E8",  # Establecer el color de fondo del campo de entrada
+    relief="flat"  # Estilo plano para el borde del campo
+)
+entry_password.pack(pady=5)  # Agregar el campo de entrada a la ventana con un margen vertical de 5 píxeles
+
+# Botón para comprobar la contraseña
+btn_check = tk.Button(  # Crear un botón para comprobar la seguridad de la contraseña
+    root, 
+    text="Comprobar Contraseña",  # Texto que aparece en el botón
+    command=check_password,  # Función que se ejecutará al hacer clic en el botón (debe estar definida)
+    font=("Arial", 12),  # Fuente y tamaño del texto
+    bg="#2196F3",  # Color de fondo del botón
+    fg="white",  # Color del texto del botón
+    relief="flat",  # Estilo plano para el borde del botón
+    activebackground="#1E88E5"  # Color de fondo del botón cuando está activo (clic o hover)
+)
+btn_check.pack(pady=15)  # Agregar el botón a la ventana con un margen vertical de 15 píxeles
+
+# Ejecutar la aplicación
+root.mainloop()  # Iniciar el bucle principal de la aplicación para que la ventana sea interactiva
