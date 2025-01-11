@@ -29,3 +29,13 @@ Este proyecto es una aplicación desarrollada en Python que permite a los usuari
 ·random: Para la generación de contraseñas aleatorias.
 
 ·string: Para proporcionar conjuntos de caracteres (letras, dígitos y símbolos).
+
+# Instalación
+
+1. Descarga el archivo del código fuente.
+   
+2. nstala las dependencias necesarias. En este caso, las bibliotecas tkinter, random y string vienen incluidas en Python por defecto, por lo que no necesitas instalar nada adicional.
+   
+3. Ejecuta el archivo principal del programa:
+
+python generador_contraseñas.py
