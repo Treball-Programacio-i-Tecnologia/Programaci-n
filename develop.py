@@ -8,7 +8,7 @@ git commit -m "[SCRUM-7] Implementar finestra flotant"
 
 git push origin feature/SCRUM-7
 
-# Crear y subir la rama feature/SCRUM-8
+# Repetir con feature/SCRUM-8
 git checkout develop
 git checkout -b feature/SCRUM-8
 git push -u origin feature/SCRUM-8
@@ -16,7 +16,7 @@ git add .
 git commit -m "[SCRUM-8] Funcionalitat finestra"
 git push origin feature/SCRUM-8
 
-# Crear y subir la rama feature/SCRUM-9
+# Repetir con feature/SCRUM-9
 git checkout develop
 git checkout -b feature/SCRUM-9
 git push -u origin feature/SCRUM-9
@@ -24,7 +24,7 @@ git add .
 git commit -m "[SCRUM-9] Aspectes estètics finestra"
 git push origin feature/SCRUM-9
 
-# Crear y subir la rama feature/SCRUM-11
+# Repetir con feature/SCRUM-11
 git checkout develop
 git checkout -b feature/SCRUM-11
 git push -u origin feature/SCRUM-11
@@ -32,7 +32,7 @@ git add .
 git commit -m "[SCRUM-11] Generador de contrasenyes"
 git push origin feature/SCRUM-11
 
-# Crear y subir la rama feature/SCRUM-12
+# Repetir con feature/SCRUM-12
 git checkout develop
 git checkout -b feature/SCRUM-12
 git push -u origin feature/SCRUM-12
@@ -40,7 +40,7 @@ git add .
 git commit -m "[SCRUM-12] Comprovador de contrasenyes"
 git push origin feature/SCRUM-12
 
-# Crear y subir la rama feature/SCRUM-13
+# Repetir con feature/SCRUM-13
 git checkout develop
 git checkout -b feature/SCRUM-13
 git push -u origin feature/SCRUM-13
@@ -96,7 +96,7 @@ git checkout develop
 git merge main
 git push origin develop
 
-# Crear una rama release (si es necesario para versiones)
+# Crear una rama release 
 git checkout develop
 git checkout -b release/v1.0.0
 git push -u origin release/v1.0.0
